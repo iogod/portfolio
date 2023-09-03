@@ -18,7 +18,7 @@ function About() {
     </div>
     
 
- <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-full  m-auto   text-gray-500 gap-16 dark:text-gray-400   text-2xl  h-full  p-16  text-left'>
+ <div className='grid grid-cols-1 sm:grid-cols-1 w-full  m-auto   text-gray-500 gap-16 dark:text-gray-400   text-2xl  h-full  p-16  text-left'>
 
 
 <div className='flex  flex-col gap-8 items-start  '>
@@ -47,8 +47,8 @@ function About() {
 
 
 
-    <div className='grid grid-cols-2 gap-3 text-2xl'>
-    <strong className='text-3xl'>
+    <div className='grid grid-cols-2 gap-3 m-auto text-3xl'>
+    <strong className='text-5xl'>
         Skills
     </strong>
         <div>Javascript</div>
@@ -83,10 +83,7 @@ function About() {
 
 </div>
 
-<div className=' flex hover:saturate-50 justify-center items-center  ' >
-<img style={{minWidth:"800px",borderRadius:"50%"}} src={"https://ik.imagekit.io/zgpt0c0bl/image0.jpeg?updatedAt=1693517839191"}>
- </img>
-</div>
+
  </div>
 
 
